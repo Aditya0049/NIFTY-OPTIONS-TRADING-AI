@@ -3,6 +3,19 @@
 
 Using the power of AI and machine learning, the application analyzes historical market data, identifies patterns, and generates actionable insights for options trading in the Nifty index. It leverages advanced algorithms to identify optimal entry and exit points, manage risk, and optimize trading strategies.
 
+*Web application using linear regression ML model (options trading) on the Nifty index with an 85% win 
+rate. (Back-tested data from 2007-2023).
+*Nifty index makes less than 1% of movement 85 times/day. ATM+1% call sell & ATM+1% put sell give 
+Overall theta is positive and execution of the algorithm will be done using an AI model. 
+
+
+**Generated results in 20 days with initial capital of Rs.19000**
+
+![Screenshot (983)](https://github.com/Aditya0049/NIFTY-OPTIONS-TRADING-AI/assets/88885329/15b7e5eb-c6ca-456a-942f-13498936b5b0)
+
+
+
+
 ## Key features of "Nifty-options-trading-AI" expands 4 main areas
 
 ### 1. Intelligent Trade Recommendations: The AI-powered system provides real-time trade recommendations for buying and selling Nifty options based on extensive market analysis and historical data patterns.
