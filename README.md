@@ -13,3 +13,14 @@ Using the power of AI and machine learning, the application analyzes historical 
 **With a user-friendly interface, "Nifty-options-trading-AI" aims to empower both novice and experienced traders to make informed decisions and enhance their options trading experience. The application strives to provide a seamless and efficient trading environment, integrating with popular brokerage APIs for the seamless execution of trades**
 
 Project is building ♥ stay tune till then :)
+
+To run the code on your computer, you will need to have Python installed. You can download Python from the official Python website.
+
+Once you have Python installed, you can open a terminal window and navigate to the directory where the code file is located.
+
+To run the code, you can type the following command in the terminal window:
+
+```python stock_analysis.py```
+This will run the code and print the results to the terminal window.
+
+You can also run the code in a Python IDE, such as PyCharm or Visual Studio Code. To do this, open the code file in the IDE and press the Run button. The IDE will run the code and display the results in the IDE's console.
