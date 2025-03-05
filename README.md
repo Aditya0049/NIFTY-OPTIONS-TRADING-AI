@@ -40,7 +40,6 @@ pip install -r requirements.txt
 
 ## Future Improvements
 - Introduce AI-driven predictions for market movements.
-- Implement advanced options strategies (e.g., iron condors, straddles).
 - Automate live trading with broker APIs.
 
 ## Contributing
