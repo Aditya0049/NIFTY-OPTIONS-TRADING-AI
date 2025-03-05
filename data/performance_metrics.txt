@@ -1,0 +1,4 @@
+Total Trades: 248
+Winning Trades: 151
+Win Rate: 60.89%
+Final P/L: ₹10800.00

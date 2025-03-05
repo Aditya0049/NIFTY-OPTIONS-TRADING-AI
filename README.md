@@ -1,39 +1,51 @@
-# NIFTY-OPTIONS-TRADING-AI
-"Nifty-options-trading-AI" is a web application with artificial intelligence and options trading on the Nifty index. The project aims to automate options trading strategies by providing users with a data-driven approach to maximize their trading potential.
+# Nifty Options Trading AI
 
-Using the power of AI and machine learning, the application analyzes historical market data, identifies patterns, and generates actionable insights for options trading in the Nifty index. It leverages advanced algorithms to identify optimal entry and exit points, manage risk, and optimize trading strategies.
+This project implements an AI-driven trading strategy for Nifty options. It uses historical Nifty index data to backtest a simple options selling strategy based on market volatility. The strategy evaluates daily price movements and executes trades accordingly, providing performance metrics and visualization of cumulative profits.
 
-*Web application using linear regression ML model (options trading) on the Nifty index with an 85% win 
-rate. (Back-tested data from 2007-2023).
-*Nifty index makes less than 1% of movement 85 times/day. ATM+1% call sell & ATM+1% put sell give 
-Overall theta is positive and execution of the algorithm will be done using an AI model. 
+## Strategy Overview
+The strategy involves:
+- Selling At-the-Money (ATM) +1% Call and Put Options when the market movement is less than 1%.
+- Targeting a net profit of ₹100 per trade on both Call and Put positions.
 
+## Key Features
+- **Automated Backtesting:** Analyze historical Nifty data with a rule-based trading strategy.
+- **Performance Metrics:** Gain insights into total trades, win rate, and final profit/loss.
+- **Visualization:** Visualize the cumulative P/L over time with matplotlib.
 
-**Generated results in 20 days with initial capital of Rs.19000**
+## Trade Data
+- **Total Trades:** 248
+- **Winning Trades:** 151
+- **Win Rate:** 60.89%
+- **Final P/L:** ₹10,800.00
 
-![Screenshot (983)](https://github.com/Aditya0049/NIFTY-OPTIONS-TRADING-AI/assets/88885329/15b7e5eb-c6ca-456a-942f-13498936b5b0)
+![Cumulative P/L](data/cumulative_pnl.png)
 
+## How It Works
+1. Load historical Nifty data.
+2. Calculate daily market movement.
+3. Execute trades based on volatility.
+4. Aggregate and visualize performance.
+5. Generate performance metrics.
 
+## Usage
+```bash
+python backtest_strategy.py
+```
 
+## Requirements
+Install dependencies using:
+```bash
+pip install -r requirements.txt
+```
 
-## Key features of "Nifty-options-trading-AI" expands 4 main areas
+## Future Improvements
+- Introduce AI-driven predictions for market movements.
+- Implement advanced options strategies (e.g., iron condors, straddles).
+- Automate live trading with broker APIs.
 
-### 1. Intelligent Trade Recommendations: The AI-powered system provides real-time trade recommendations for buying and selling Nifty options based on extensive market analysis and historical data patterns.
-### 2. Risk Management: The application incorporates risk management techniques to help users mitigate potential losses, including stop-loss orders and position sizing strategies.
-### 3. Performance Monitoring: Users can track the performance of their trades and assess the effectiveness of different strategies through interactive visualizations and performance metrics.
-### 4. Customization and Alerts: The platform allows users to customize their trading preferences, set personalized alerts for specific market conditions, and receive notifications for potential trade opportunities.
+## Contributing
+Feel free to fork the repository and submit pull requests for improvements!
 
-**With a user-friendly interface, "Nifty-options-trading-AI" aims to empower both novice and experienced traders to make informed decisions and enhance their options trading experience. The application strives to provide a seamless and efficient trading environment, integrating with popular brokerage APIs for the seamless execution of trades**
+## License
+This project is licensed under the MIT License.
 
-Project is building ♥ stay tune till then :)
-
-To run the code on your computer, you will need to have Python installed. You can download Python from the official Python website.
-
-Once you have Python installed, you can open a terminal window and navigate to the directory where the code file is located.
-
-To run the code, you can type the following command in the terminal window:
-
-```python stock_analysis.py```
-This will run the code and print the results to the terminal window.
-
-You can also run the code in a Python IDE, such as PyCharm or Visual Studio Code. To do this, open the code file in the IDE and press the Run button. The IDE will run the code and display the results in the IDE's console.
